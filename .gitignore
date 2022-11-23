@@ -896,9 +896,6 @@ function Library:create(options)
 
 	rawset(mt, "creditsContainer", creditsTab.container)
 
-	creditsTab:credit{Name = "Jermey", Description = "Owner of Going Rogue", Discord = "JermeyIsPro#2144"}
-	creditsTab:credit{Name = "paralyzed", Description = "Co-Owner", Discord = "paralyzed#0001"}
-	creditsTab:credit{Name = "Reggie", Description = "Head Developer", Discord = "ReggiePro124#8584"}
 	creditsTab:credit{Name = "Jack", Description = "Admin", Discord = "Mysterious_0verkki#5341"}
 
 	return mt
